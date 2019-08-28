@@ -1,6 +1,7 @@
 const fs = require('fs');
 const http = require('http');
 const url = require('url');
+const slugify = require('slugify');
 const replaceTemplate = require('./module/replaceTemplate');
 // reading file system sync
 // const textIn = fs.readFileSync('./txt/input.txt', 'utf-8');
